@@ -53,11 +53,11 @@ public class FactorialTest {
 	
 	public static void main(String[] args) {
 		int result = factorial(4);
-		//System.out.println(result);
+		System.out.println(result);
 		//StackOverFlow 문제는 해결되었지만 int 형이 결과값을 출력하지 못하기 때문에 int 형을 BigInteger로 변환해야합니다.
 		int result2 = factorial2(1000000);
 		//System.out.println(result2);
-		System.out.println(String.format("%.5s",FactorialTest.factorialResult(HUNDRED_THOU)));
+		System.out.println(String.format("%.40s",FactorialTest.factorialResult(HUNDRED_THOU)));
 		
 	}
 	

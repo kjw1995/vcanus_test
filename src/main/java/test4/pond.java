@@ -61,6 +61,17 @@ public class pond {
 			System.out.println();
 		}
 		
+		int result = 0;
+		
+		for(int i = 0; i < pond.length; i++) {
+			for(int j = 0; j <pond[i].length; j++) {
+				result += pond[i][j];
+			}
+		}
+		
+		System.out.println("연못의 깊이 = " + result);
+		
+		
 		
 	}
 }
